@@ -1,8 +1,8 @@
-#  ScRNA-seq T Cell Trajectory Analysis
+# ScRNA-seq T Cell Trajectory Analysis
 
 This repository presents a detailed and reproducible pipeline for analyzing single-cell RNA-seq data to study **T cell differentiation** using R. It leverages the power of **Seurat** for data preprocessing and clustering and **Monocle3** for trajectory inference and pseudotime analysis. The analysis walks through quality control, clustering, cell type annotation, and dynamic modeling of cell state transitions.
 
-##  Key Features
+## Key Features
 
 - Preprocessing and normalization of UMI count data
 - Quality control filtering based on RNA counts, feature counts, and mitochondrial content
@@ -13,7 +13,7 @@ This repository presents a detailed and reproducible pipeline for analyzing sing
 - Trajectory graph construction and pseudotime inference
 - Visualization of gene expression trends along pseudotime
 
-##  Technologies Used
+## Technologies Used
 
 - **Language**: R (RMarkdown)  
 - **Packages**: `Seurat`, `Monocle3`, `ggplot2`, `SeuratWrappers`, `tidyverse`, 
